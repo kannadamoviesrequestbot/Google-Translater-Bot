@@ -8,10 +8,10 @@ async def start_main(main, update):
                             reply_to_message_id = update.message_id,
                             parse_mode="markdown",
                             reply_markup=InlineKeyboardMarkup([[
-                            InlineKeyboardButton("Support Group", url="t.me/Mo_Tech_Group"),
-                            InlineKeyboardButton("Open Source", url="https://github.com/PR0FESS0R-99/Google-Translater-Bot")
+                            InlineKeyboardButton("Support channel", url="https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17"),
+                            InlineKeyboardButton("support group", url="https://t.me/searchkannadamovies")
                             ],[
-                            InlineKeyboardButton("📢 Join Updates Channel 📢" ,url="t.me/Mo_Tech_YT")
+                            InlineKeyboardButton("📢 Join Updates Channel 📢" ,url="t.me/BAGURUJOINAGUUKANNADAMOVIES_17")
                             ]])
                             )
 @Client.on_message(filters.private & filters.command("about"))
@@ -20,6 +20,6 @@ async def about_main(main, update):
                             reply_to_message_id = update.message_id,
                             parse_mode="markdown",
                             reply_markup=InlineKeyboardMarkup([[
-                            InlineKeyboardButton("📢 Join Updates Channel 📢" ,url="t.me/Mo_Tech_YT")
+                            InlineKeyboardButton("📢 Join Updates Channel 📢" ,url="t.me/BAGURUJOINAGUUKANNADAMOVIES_17")
                             ]])
                             )
